@@ -8,9 +8,7 @@ function generate() {
     let password = "";
 
     let result = confirm("Would you like uppercase characters?");
-    let result = confirm("Would you like to use lowercase characters?");
-    let result = confirm("Would you like to use special characters?");
-    let result = confirm("Would you like to use numbers?");
+    
 
     for (var i = 0; i <= complexity; i++) {
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
@@ -22,7 +20,7 @@ function generate() {
 
 }
 // default length display at 25
-document.getElementById("length").innerHTML = "Length: 25";
+//document.getElementById("length").innerHTML = "Length: 25";
 
 // length based on slider position
 document.getElementById("selector").oninput = function () {
