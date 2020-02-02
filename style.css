@@ -1,3 +1,16 @@
+html, body {
+    background-color: rgba(64, 68, 71, 0.664);
+}
+
+#navhead {
+    text-align: center;
+    font-size: 40px;
+    float: none;
+    padding: 0px;
+    width: 100%;
+    top: 10px;
+} 
+
 .content {
     margin-top: 10px;
     margin-bottom: 10px;
